@@ -69,7 +69,7 @@ export default function LandingPage() {
           handle: "@MariaP",
           testimonial: "Винаги свежи продукти и най-вкусните пици в града! Обслужването е на ниво.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-bed-showing-ok-gesture_23-2147767529.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-bed-showing-ok-gesture_23-2147767529.jpg?_wi=1",
           imageAlt: "Customer Maria Petrova",
         },
         {
@@ -77,7 +77,7 @@ export default function LandingPage() {
           handle: "@IvanG",
           testimonial: "Любимото ми място за сутрешно кафе и бърз сандвич. Кафето е страхотно!",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-cheerful-teenage-girl-sitting-cafe_1262-3048.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-cheerful-teenage-girl-sitting-cafe_1262-3048.jpg?_wi=1",
           imageAlt: "Customer Ivan Georgiev",
         },
         {
@@ -85,7 +85,7 @@ export default function LandingPage() {
           handle: "@ElenaD",
           testimonial: "ББ Маркет е моят магазин за всичко – от основни хранителни продукти до вкусна готова храна.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/young-woman-enjoying-cup-coffee_23-2148953567.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/young-woman-enjoying-cup-coffee_23-2148953567.jpg?_wi=1",
           imageAlt: "Customer Elena Dimitrova",
         },
         {
@@ -93,7 +93,7 @@ export default function LandingPage() {
           handle: "@GeorgiK",
           testimonial: "Много удобно местоположение и винаги намирам това, което търся. Пиците са феноменални.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/husband-wife-having-nice-date-coffee-shop_23-2149016148.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/husband-wife-having-nice-date-coffee-shop_23-2149016148.jpg?_wi=1",
           imageAlt: "Customer Georgi Kolev",
         },
       ]}
@@ -223,7 +223,7 @@ export default function LandingPage() {
           name: "Анна Стоянова",
           handle: "@AnnaS",
           testimonial: "ББ Маркет е моят избор за пазаруване. Винаги намирам качествени продукти и всичко е много добре подредено. Пиците са невероятни!",
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-bed-showing-ok-gesture_23-2147767529.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-bed-showing-ok-gesture_23-2147767529.jpg?_wi=2",
           imageAlt: "Anna Stoyanova",
         },
         {
@@ -231,7 +231,7 @@ export default function LandingPage() {
           name: "Петър Иванов",
           handle: "@PetarI",
           testimonial: "Работя наблизо и често си взимам кафе и сандвич от ББ Маркет. Обслужването е бързо, а храната винаги прясна и вкусна. Горещо препоръчвам!",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-cheerful-teenage-girl-sitting-cafe_1262-3048.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-cheerful-teenage-girl-sitting-cafe_1262-3048.jpg?_wi=2",
           imageAlt: "Petar Ivanov",
         },
         {
@@ -239,7 +239,7 @@ export default function LandingPage() {
           name: "Даниела Костова",
           handle: "@DanielaK",
           testimonial: "Много съм доволна от разнообразието на хранителни стоки. Няма нужда да обикалям много магазини, всичко намирам тук. Цените също са добри.",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-woman-enjoying-cup-coffee_23-2148953567.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/young-woman-enjoying-cup-coffee_23-2148953567.jpg?_wi=2",
           imageAlt: "Daniela Kostova",
         },
         {
@@ -247,7 +247,7 @@ export default function LandingPage() {
           name: "Николай Йорданов",
           handle: "@NikolaiY",
           testimonial: "Професионалните кафета са истинско удоволствие. Започвам деня си винаги с кафе от ББ Маркет. Много добро съотношение цена-качество.",
-          imageSrc: "http://img.b2bpic.net/free-photo/husband-wife-having-nice-date-coffee-shop_23-2149016148.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/husband-wife-having-nice-date-coffee-shop_23-2149016148.jpg?_wi=2",
           imageAlt: "Nikolai Yordanov",
         },
       ]}
