@@ -36,7 +36,7 @@ export default function LandingPage() {
         {
           name: "Контакти",          id: "contact"},
       ]}
-      brandName="Б.Б. Маркет"
+      brandName="ББ Маркет"
     />
   </div>
 
@@ -46,7 +46,7 @@ export default function LandingPage() {
       background={{
         variant: "plain"}}
       title="Вашият квартален магазин за прясна храна и удоволствия"
-      description="Б.Б. Маркет предлага внимателно подбрани хранителни стоки, автентични италиански пици, принцеси, сандвичи и професионални кафета. Всичко необходимо на едно място."
+      description="ББ Маркет предлага внимателно подбрани хранителни стоки, автентични италиански пици, принцеси, сандвичи и професионални кафета. Всичко необходимо на едно място."
       testimonials={[
         {
           name: "Мария Петрова",          handle: "@MariaP",          testimonial: "Винаги свежи продукти и най-вкусните пици в града! Обслужването е на ниво.",          rating: 5,
@@ -66,7 +66,7 @@ export default function LandingPage() {
         {
           text: "Поръчайте по Телефон",          href: "tel:0895038323"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/man-woman-keeping-social-distance_23-2148626201.jpg?_wi=1"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BJNbpiwHIEXf6aOtihev7yx9Bn/uploaded-1774289515863-xm5kfdvi.jpg"
       imageAlt="BB Market store interior with diverse products"
       mediaAnimation="slide-up"
     />
@@ -110,7 +110,7 @@ export default function LandingPage() {
       textarea={{
         name: "message",        placeholder: "Вашето съобщение",        rows: 5}}
       buttonText="Изпрати съобщение"
-      imageSrc="http://img.b2bpic.net/free-photo/man-woman-keeping-social-distance_23-2148626201.jpg?_wi=2"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BJNbpiwHIEXf6aOtihev7yx9Bn/uploaded-1774289586825-ukraxsx0.jpg"
       imageAlt="BB Market store interior with diverse products"
       mediaAnimation="slide-up"
       mediaPosition="right"
@@ -139,7 +139,7 @@ export default function LandingPage() {
           ],
         },
       ]}
-      logoText="Б.Б. Маркет"
+      logoText="ББ Маркет"
     />
   </div>
       </ReactLenis>
