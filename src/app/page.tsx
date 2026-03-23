@@ -110,7 +110,7 @@ export default function LandingPage() {
       textarea={{
         name: "message",        placeholder: "Вашето съобщение",        rows: 5}}
       buttonText="Изпрати съобщение"
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BJNbpiwHIEXf6aOtihev7yx9Bn/uploaded-1774289586825-ukraxsx0.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BJNbpiwHIEXf6aOtihev7yx9Bn/uploaded-1774289709264-z8otyja0.jpg"
       imageAlt="BB Market store interior with diverse products"
       mediaAnimation="slide-up"
       mediaPosition="right"
