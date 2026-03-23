@@ -98,7 +98,7 @@ export default function LandingPage() {
       <ContactSplitForm
       useInvertedBackground={false}
       title="Свържете се с нас"
-      description="Адрес: гр. Пазарджик, ул. Георги Бенковски 27\nТелефон: 089 503 8323\nРаботно време: Понеделник - Неделя: 07:00 - 21:00"
+      description="Моля, за всички поръчки и бързи въпроси, свържете се с нас на посочения телефон. \nАдрес: гр. Пазарджик, ул. Георги Бенковски 27\nТелефон: 089 503 8323\nРаботно време: Понеделник - Неделя: 07:00 - 21:00"
       inputs={[
         {
           name: "name",          type: "text",          placeholder: "Вашето име",          required: true},
