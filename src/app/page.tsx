@@ -2,15 +2,13 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import AboutMetric from '@/components/sections/about/AboutMetric';
+
 import ContactText from '@/components/sections/contact/ContactText';
-import FeatureHoverPattern from '@/components/sections/feature/featureHoverPattern/FeatureHoverPattern';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import HeroBillboardTestimonial from '@/components/sections/hero/HeroBillboardTestimonial';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
-import { Award, Box, Droplet, ShoppingBag, Users } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -32,8 +30,6 @@ export default function LandingPage() {
       navItems={[
         {
           name: "Начало",          id: "home"},
-        {
-          name: "За нас",          id: "about"},
         {
           name: "Отзиви",          id: "testimonials"},
         {
@@ -59,10 +55,10 @@ export default function LandingPage() {
           imageSrc: "http://img.b2bpic.net/free-photo/portrait-cheerful-teenage-girl-sitting-cafe_1262-3048.jpg?_wi=1",          imageAlt: "Customer Ivan Georgiev"},
         {
           name: "Елена Димитрова",          handle: "@ElenaD",          testimonial: "ББ Маркет е моят магазин за всичко – от основни хранителни продукти до вкусна готова храна.",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/young-woman-enjoying-cup-coffee_23-2148953567.jpg?_wi=1",          imageAlt: "Customer Elena Dimitrova"},
+          imageSrc: "http://img.b2bpic.net/free-photo/young-woman-enjoying-cup-coffee_23-2148953567.jpg?_wi=1",          imageAlt: "Customer Елена Димитрова"},
         {
           name: "Георги Колев",          handle: "@GeorgiK",          testimonial: "Много удобно местоположение и винаги намирам това, което търся. Пиците са феноменални.",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/husband-wife-having-nice-date-coffee-shop_23-2149016148.jpg?_wi=1",          imageAlt: "Customer Georgi Kolev"},
+          imageSrc: "http://img.b2bpic.net/free-photo/husband-wife-having-nice-date-coffee-shop_23-2149016148.jpg?_wi=1",          imageAlt: "Customer Георги Колев"},
       ]}
       testimonialRotationInterval={5000}
       buttons={[
@@ -75,45 +71,7 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="about" data-section="about">
-      <AboutMetric
-      useInvertedBackground={false}
-      title="Ние сме ББ Маркет"
-      metrics={[
-        {
-          icon: Award,
-          label: "Висококачествени продукти",          value: "200+"},
-        {
-          icon: Users,
-          label: "Доволни клиенти",          value: "1000+"},
-      ]}
-      metricsAnimation="slide-up"
-    />
-  </div>
 
-  <div id="features" data-section="features">
-      <FeatureHoverPattern
-      animationType="scale-rotate"
-      textboxLayout="default"
-      useInvertedBackground={false}
-      features={[
-        {
-          icon: Award,
-          title: "Италиански пици",          description: "Автентични рецепти, приготвени с внимание и подбрани продукти за неповторим вкус."},
-        {
-          icon: Box,
-          title: "Принцеси и Сандвичи",          description: "Разнообразие от свежи и току-що приготвени принцеси и сандвичи за бърз и вкусен обяд или вечеря."},
-        {
-          icon: Droplet,
-          title: "Професионални кафета",          description: "Насладете се на ароматно кафе от висококачествени зърна, приготвено от нашите баристи."},
-        {
-          icon: ShoppingBag,
-          title: "Разнообразни хранителни стоки",          description: "Открийте богат асортимент от хранителни продукти, без плодове и зеленчуци, за вашето домакинство."},
-      ]}
-      title="Нашите предложения"
-      description="От свежи хранителни стоки до току-що приготвени ястия – открийте разнообразие от вкусове, които ще задоволят всеки вкус."
-    />
-  </div>
 
   <div id="testimonials" data-section="testimonials">
       <TestimonialCardSix
@@ -155,8 +113,6 @@ export default function LandingPage() {
           items: [
             {
               label: "Начало",              href: "#home"},
-            {
-              label: "За нас",              href: "#about"},
             {
               label: "Отзиви",              href: "#testimonials"},
             {
