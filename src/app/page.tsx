@@ -66,7 +66,7 @@ export default function LandingPage() {
         {
           text: "Поръчайте по Телефон",          href: "tel:0895038323"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/man-woman-keeping-social-distance_23-2148626201.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/man-woman-keeping-social-distance_23-2148626201.jpg?_wi=1"
       imageAlt="BB Market store interior with diverse products"
       mediaAnimation="slide-up"
     />
@@ -110,7 +110,7 @@ export default function LandingPage() {
       textarea={{
         name: "message",        placeholder: "Вашето съобщение",        rows: 5}}
       buttonText="Изпрати съобщение"
-      imageSrc="http://img.b2bpic.net/free-photo/man-woman-keeping-social-distance_23-2148626201.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/man-woman-keeping-social-distance_23-2148626201.jpg?_wi=2"
       imageAlt="BB Market store interior with diverse products"
       mediaAnimation="slide-up"
       mediaPosition="right"
